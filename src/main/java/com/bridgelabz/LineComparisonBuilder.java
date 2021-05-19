@@ -23,10 +23,15 @@ public class LineComparisonBuilder {
         System.out.println("Length of second line = " + second_line_length);
         if (first_line_length == second_line_length)
         {
-            System.out.println("Equality of two line is preferable");
+            System.out.println("Both lines are equal");
         }
-        else {
-            System.out.println("The two linesare not equal");
+        else if(first_line_length > second_line_length)
+        {
+            System.out.println("First line is grater than second line");
+        }
+        else
+        {
+            System.out.println("Second line is grater than first line");
         }
     }
 }
